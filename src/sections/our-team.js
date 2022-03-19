@@ -19,7 +19,7 @@ const packages = [
     points: [
       {
         // icon: <IoIosCheckmarkCircle />,
-        text: 'No primeiro mês você pagará um total de R$ 49,90, e nos meses seguintes pagará apenas R$ 19,90 mensal.',
+        text: 'No primeiro mês você paga um total de R$ 49,90. Nos meses seguintes, você paga R$ 19,90 mensal.',
         isAvailable: true,
       },
       // {
@@ -54,7 +54,7 @@ const packages = [
     points: [
       {
         // icon: <IoIosCheckmarkCircle />,
-        text: 'Este plano não possui taxa de adesão. Você pagará um valor único mensal de R$ 238,80 anual.',
+        text: 'Não possui taxa de adesão. Você paga um valor único por ano de R$ 238,80.',
         isAvailable: true,
       },
       // {

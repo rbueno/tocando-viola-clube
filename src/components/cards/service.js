@@ -6,9 +6,13 @@ import { LearnMore } from 'components/link';
 const Service = ({ item }) => {
   return (
     <Box sx={styles.serviceItem}>
-      <Box as="figure" sx={styles.figure}>
+      {
+        item?.icon && (
+          <Box as="figure" sx={styles.figure}>
         <Image src={item?.icon} alt="icon" />
-      </Box>
+        </Box>
+        )
+      }
       <Box sx={styles.content}>
         <Heading as="h3">{item?.title}</Heading>
         <Text as="p">{item?.description}</Text>

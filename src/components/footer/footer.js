@@ -2,7 +2,7 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 import {
-  jsx, Box, Text, Container, Image,
+  jsx, Box, Text, Container, Image, Heading
 } from 'theme-ui';
 import Logo from 'components/logo';
 import { Link } from 'components/link';
@@ -38,6 +38,7 @@ Tocandô Viola Clube
             <Widget key={id} title={title} items={items} />
           ))} */}
           <Box>
+            <Heading as="h3">Endorser</Heading>
             <Image src={rozini} />
           </Box>
           <Image src={daddario} />

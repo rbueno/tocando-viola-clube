@@ -38,10 +38,10 @@ const OurTeam = () => (
             <Image src={ricardoVignini} alt="" />
           </Box>
           <Heading as="h3">Ricardo Vignini</Heading>
-          <Text as="p">" Zé Helder é a pessoa que tem a melhor didática que eu já conheci "</Text>
+          <Text as="p">"Zé Helder é a pessoa que tem a melhor didática que eu já conheci"</Text>
           <AudioPlayer
             controls
-            src="http://tot3.com.br/wp-content/uploads/2021/07/Depoimentos-Ze-Helder-Ricardo-Vignini.mp3"
+            src="https://observatorioluneta.com/tocando_files/Depoimentos-Ze-Helder-Ricardo-Vignini.mp3"
           />
         </Box>
         <Box
@@ -52,10 +52,10 @@ const OurTeam = () => (
             <Image src={leviRamiro} alt="" />
           </Box>
           <Heading as="h3">Levi Ramiro</Heading>
-          <Text as="p">" O Zé tem um histórico dentro da área da pedagocia, viola e música indiscutível "</Text>
+          <Text as="p">"O Zé tem um histórico dentro da área da pedagógica de viola e música indiscutível"</Text>
           <AudioPlayer
             controls
-            src="http://tot3.com.br/wp-content/uploads/2021/07/Depoimentos-Ze-Helder-Levi-Ramiro.mp3"
+            src="https://observatorioluneta.com/tocando_files/Depoimentos-Ze-Helder-Levi-Ramiro.mp3"
           />
         </Box>
         <Box
@@ -66,10 +66,10 @@ const OurTeam = () => (
             <Image src={ivanVilella} alt="" />
           </Box>
           <Heading as="h3">Ivan Vilella</Heading>
-          <Text as="p">"Zé Helder levou a viola para os conservatórios, além de professo é um músico notável "</Text>
+          <Text as="p">"Zé Helder levou a viola para os conservatórios de Minas. Além de ser professor, é um músico notável"</Text>
           <AudioPlayer
             controls
-            src="http://tot3.com.br/wp-content/uploads/2021/07/Depoimentos-Ze-Helder-Ivan-Vilella.mp3"
+            src="https://observatorioluneta.com/tocando_files/Depoimentos-Ze-Helder-Ivan-Vilella.mp3"
           />
         </Box>
         <Box
@@ -83,7 +83,7 @@ const OurTeam = () => (
           <Text as="p">" Professor e maestro com raiz caipira. Se quiser aprender viola, procure Zé Helder "</Text>
           <AudioPlayer
             controls
-            src="http://tot3.com.br/wp-content/uploads/2021/07/Depoimento-Ze-Helder-Seu-Oliveira.mp3"
+            src="https://observatorioluneta.com/tocando_files/Depoimento-Ze-Helder-Seu-Oliveira.mp3"
           />
         </Box>
         

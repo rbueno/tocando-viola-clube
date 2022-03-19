@@ -3,49 +3,49 @@
 import { jsx, Box, Container } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import Service from 'components/cards/service';
-import tocandoVideoIcon from 'assets/images/tocando-video.png';
-import tocandoDownload from 'assets/images/tocando-download.png';
-import tocandoPodcast from 'assets/images/tocando-podcast.png';
-import tocandoPlayAlong from 'assets/images/tocando-play-along.png';
-import tocandoLives from 'assets/images/tocando-lives.png';
-import tocandoMais from 'assets/images/tocando-mais.png';
+import tocandoVideoIcon from 'assets/images/video.png';
+import tocandoDownload from 'assets/images/download.png';
+import tocandoPodcast from 'assets/images/podcast.png';
+import tocandoPlayAlong from 'assets/images/playalong.png';
+import tocandoLives from 'assets/images/lives.png';
+import tocandoMais from 'assets/images/muito-mais.png';
 
 const data = [
   {
     id: 1,
     icon: tocandoVideoIcon,
     title: 'Video',
-    description: `Video aula com recursos gráficos`,
+    description: `Videoaulas com recursos gráficos e a opção de mudança de velocidade. Toda semana tem material novo para estudar!`,
   },
   {
     id: 2,
     icon: tocandoDownload,
     title: 'Material para download',
-    description: `PDF bem estrutura com tablaturas e partituras.`,
+    description: `PDF com as tablaturas e partituras das músicas para você estudar quando quiser.`,
   },
   {
     id: 3,
     icon: tocandoPodcast,
     title: 'Podcast',
-    description: `Entrevistas e conversas enriquecedoras em um formato descontraído e dinâmico.`,
+    description: `Entrevistas e conversas enriquecedoras em um formato descontraído e dinâmico com grandes nomes da viola caipira no Brasil.`,
   },
   {
     id: 4,
     icon: tocandoPlayAlong,
     title: 'Play along',
-    description: `Uma forma eficaz para práticar o que aprendermos no clube.`,
+    description: `Uma forma eficaz para praticar as músicas do Tocandô Viola Clube.`,
   },
   {
     id: 5,
     icon: tocandoLives,
     title: 'Lives',
-    description: `Frequêntemente temos lives ondes os membros tem acesso a conteúdo exclusivo.`,
+    description: `Locais para encontros online entre os membros do Tocandô Viola Clube.`,
   },
   {
     id: 6,
     icon: tocandoMais,
     title: 'Muito mais',
-    description: `O clube é dinâmico e frequentemente temos interações diferenciadas.`,
+    description: `O Tocandô Viola Clube é dinâmico. Frequentemente temos interações diferenciadas e atualizações.`,
   },
 ];
 

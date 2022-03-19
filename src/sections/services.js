@@ -10,13 +10,13 @@ import knowledge from 'assets/images/knowledge.png';
 const data = [
   {
     id: 1,
-    icon: tunningFork,
+    // icon: tunningFork,
     title: 'Paixão pela arte!',
     description: `Aprenda a tocar viola caipira de forma leve e simples, tendo desde o início a paixão pelo processo e a percepção clara do seu progresso`,
   },
   {
     id: 2,
-    icon: knowledge,
+    // icon: knowledge,
     title: 'Conhecimento filtrado!',
     description: `Para o seu momento de aprendizado musical, para que você acesse de verdade as técnicas que vão não só te destravar, mas te cativar para aprender todos os dias MESMO QUE você não saiba nada de música e tudo isso SEM TER QUE gastar muito tempo ou dinheiro, ATRAVÉS DE uma nova experiência de aprender no seu tempo e espaço!`,
   },
