@@ -2,10 +2,10 @@ import React from 'react';
 import Head from 'next/head';
 
 export default function SEO({
-  description = 'startup landing descriptions',
-  author = 'RedQ, Inc',
+  description = 'Clube com aulas de viola caipira com o renomado professor e músico Zé Helder',
+  author = 'Zé Helder',
   meta,
-  title = 'startup landing title',
+  title = 'Tocandô Viola Clube',
 }) {
   const metaData = [
     {
