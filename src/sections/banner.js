@@ -12,7 +12,7 @@ import bannerBg from 'assets/images/campo-tocando.png';
 const styles = {
   section: {
     background: `url(${bannerBg}) no-repeat center top / cover`,
-    backgroundSize: ['100%', null, null, null, 'cover'],
+    // backgroundSize: ['100%', null, null, null, 'cover'],
     pt: [105, null, null, 140, 15, null, 170],
   },
   contentWrapper: {
@@ -55,18 +55,19 @@ const styles = {
 
 const Banner = () => (
   <Box as="section" id="home" sx={styles.section}>
-    <Container>
+    {/* <Container> */}
       <Box sx={styles.contentWrapper}>
         {/* <SectionHeading
           sx={styles.heading}
           title="Toda a arte da viola caipira do tradicional ao excepcional com técnicas simples de quem vai compartilhar com você mais de duas décadas de pesquisa, ensino e muita prática"
           description="Zé Helder"
         /> */}
-        <Box as="figure">
-        <iframe src="https://player.vimeo.com/video/665776501?h=7d4b25a388&title=0&byline=0&portrait=0" width="640" height="360" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe>
-        </Box>
+        <iframe src="https://player.vimeo.com/video/665776501?h=7d4b25a388&title=0&byline=0&portrait=0" width="100%" height="360" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe>
+        {/* <Box as="figure" sx={{ width: '80%' }}>
+        <iframe src="https://player.vimeo.com/video/665776501?h=7d4b25a388&title=0&byline=0&portrait=0" width="100%" height="360" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe>
+        </Box> */}
       </Box>
-    </Container>
+    {/* </Container> */}
   </Box>
 );
 

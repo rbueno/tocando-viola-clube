@@ -32,7 +32,7 @@ export default function Header() {
                 {/* <Button variant="text" sx={styles.getStartedMobile}>
                   Get Started
                 </Button> */}
-                <NavbarDrawer />
+                {/* <NavbarDrawer /> */}
               </Box>
             </Container>
           </Box>
