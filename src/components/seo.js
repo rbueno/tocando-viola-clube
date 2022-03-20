@@ -2,7 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 
 export default function SEO({
-  description = 'Clube com aulas de viola caipira com o renomado professor e músico Zé Helder',
+  description = 'Clube com aulas de viola caipira com o renomado professor e músico Zé Helder.',
   author = 'Zé Helder',
   meta,
   title = 'Tocandô Viola Clube',
@@ -52,7 +52,7 @@ export default function SEO({
 }
 
 SEO.defaultProps = {
-  lang: `en`,
+  lang: `pt`,
   meta: [],
   description: ``,
 };

@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: 'https://startup-agency.vercel.app',
+  siteUrl: 'https://www.tocandoviolaclube.com/',
   generateRobotsTxt: true,
   // optional
   // robotsTxtOptions: {
