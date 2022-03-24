@@ -24,7 +24,7 @@ const data = [
   {
     id: 3,
     // icon: knowledge,
-    ques: 'Como eu pago as mensalidades do Tocândo Viola Clube?',
+    ques: 'Como eu pago as mensalidades do Tocandô Viola Clube?',
     ans: `A única forma de pagamento aceita pela plataforma em que o Tocandô Viola Clube está alocada é por cartão de crédito. O valor da mensalidade é debitado todo mês do cartão de crédito.`,
   },
   {
@@ -48,7 +48,7 @@ const Services = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="Perguntas Frequêntes"
+          title="Perguntas Frequentes"
           description="Confira as principais dúvidas sobreo o Tocando Viola Clube"
         />
         <Box sx={styles.contentWrapper}>
