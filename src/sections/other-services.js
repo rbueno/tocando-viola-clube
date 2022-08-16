@@ -15,7 +15,7 @@ const data = [
     id: 1,
     icon: tocandoVideoIcon,
     title: 'Video',
-    description: `Videoaulas com recursos gráficos e a opção de mudança de velocidade. Novos materiais com frequência.!`,
+    description: `Videoaulas com recursos gráficos e a opção de mudança de velocidade. Novos materiais com frequência.`,
   },
   {
     id: 2,
